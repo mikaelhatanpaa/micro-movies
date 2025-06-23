@@ -8,7 +8,7 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"movieexample.com/gen"
-	model "movieexample.com/metadata/pkg"
+	model "movieexample.com/metadata/pkg/model"
 )
 
 var metadata = &model.Metadata{

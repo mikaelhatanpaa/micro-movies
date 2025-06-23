@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"movieexample.com/metadata/internal/repository"
-	model "movieexample.com/metadata/pkg"
+	model "movieexample.com/metadata/pkg/model"
 )
 
 // Repository defined a memory move metadata repository.
