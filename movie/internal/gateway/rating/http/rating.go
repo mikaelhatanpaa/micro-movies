@@ -37,7 +37,7 @@ func (g *Gateway) GetAggregatedRating(ctx context.Context, recordID ratingModel.
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 
 	if err != nil {
-		return 0, nil
+		return 0, err
 	}
 
 	req = req.WithContext(ctx)

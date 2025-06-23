@@ -5,7 +5,7 @@ package model
 type RecordID string
 
 // RecordType defines a record type. Together with RecordID
-// identifies uniquw records across all types.
+// identifies unique records across all types.
 type RecordType string
 
 // Existing record types.
